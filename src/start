@@ -1,2 +1,10 @@
 #!/usr/bin/env node
+
+// Entry point for Render deployment
+console.log('Starting TechNotes API...');
+
+// Load environment variables
+require('dotenv').config();
+
+// Start the main server
 require('../server.js');
